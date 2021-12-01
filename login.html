@@ -1,21 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
 </head>
+
 <body>
-        <div>
-            <h1>Login Page</h1>
-        </div>
-        <!-- form is a container that contain couple info -->
-        <!-- type is the most important arritube of input tag -->
-        <form action="">
-            <div><input type="text" placeholder="Username"></div>
-            <div><input type="password" placeholder="Enter your passwork"></div>
-            <div><input type="checkbox"> <label> Remainber your passwork?</label></div>
-        </form>
+    <main>
+        <section>
+            <div>
+                <h1>Login Page (form-input-label-button)</h1>
+            </div>
+            <form action="">
+                <div>
+                    <!-- name attritube: Submitted with the form as part of a name/value pair -->
+                    <!-- So whatever we put in the input box of username, and if we submit the form, the name/value pair will be the part of submitted info -->
+                    <label for="Username"> Enter Username : </label>
+                    <input type="text" placeholder="Username" id="Username" name="name">
+                </div>
+                <div>
+                    <label for="password1">Enter password :</label>
+                    <input type="password" placeholder="Enter your password" id="password1">
+                </div>
+                <!-- create an id attritube for input and use for attritube in label tag to link with each other  -->
+                <!-- id = should be unique  -->
+                <div>
+                    <label for="checkbox1">auto login?</label>
+                    <!-- it is pre checked, agree = on if check it-->
+                    <input id=checkbox1 type="checkbox" checked name="agree" id= 'agr'>
+
+                </div>
+                <div>
+                    <button>Login in</button>
+                    <!-- if you have a button inside the form, the deafut action is to submit the form and do whatever the action of the form do -->
+                    <!-- otherwise you need to use type attribute to change the action  which are submit/button/reset -->
+                </div>
+            </form>
+
+            <form action="">
+                <!-- input type = "radio" is a select box -->
+                <!-- if we name mutiple selects with the same name, only one of them can be selected -->
+                <!-- stand for break row -->
+                <br>
+                <label for="short">7days</label>
+                <input type="radio" name="time" id="short" value="7">
+                <br>
+                <label for="long">30 days</label>
+                <input type="radio" name="time" id="long" value="30">
+                <!--after click on submit , the value of the selected one will be sent-->
+                <button>submit</button>
+            </form>
+        </section>
+        <!-- add a horizontal line -->
+        <hr>
+        <section>
+            <!-- check for what different types are stand for  -->
+            <div>
+                <h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">input references page</a>
+                </h2>
+                <h2>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">button references
+                        page</a>
+                </h2>
+            </div>
+        </section>
+    </main>
+
+    <!-- form is a container that contain couple info, action arritube is resevered for now -->
+    <!-- type is the most important arritube of input tag -->
+
+
+
+
 </body>
+
 </html>
