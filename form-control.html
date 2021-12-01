@@ -30,7 +30,7 @@
                 <div>
                     <label for="checkbox1">auto login?</label>
                     <!-- it is pre checked, agree = on if check it-->
-                    <input id=checkbox1 type="checkbox" checked name="agree" id= 'agr'>
+                    <input id=checkbox1 type="checkbox" checked name="agree" id='agr'>
 
                 </div>
                 <div>
@@ -53,6 +53,33 @@
                 <!--after click on submit , the value of the selected one will be sent-->
                 <button>submit</button>
             </form>
+            <!-- select drop-down option -->
+            <form action="">
+                <!-- create a submit button by using a input with submit attribute. we can change to display by giving an value attribute -->
+                <input type="submit" value="click me!">
+            </form>
+            <form action="">
+                <label>Please select a meal plan</label>
+                <select name="meal-plan" id="">
+                    <option value="0" selected>Everyday plan</option>
+                    <option value="1">Weekday plan</option>
+                    <option value="50">50 access</option>
+                    <option value="100">100 access</option>
+                </select>
+                <!-- However this form has not thint to sent to server because no action and no submition button -->
+            </form>
+
+            <!-- input type = range -->
+            <form action="/happeness">
+                <lable for = "range">happeness</lable>
+                <input type="range" id = "range" max="100" min="0" step = '10' value= "75" name="happenees_level">
+                <button>submit</button>
+            </form>
+            <p>
+                <label for="request">speical requests?</label>
+                <br>
+                <textarea name="request" id="" cols="30" rows="10" placeholder="Speical request"></textarea>
+            </p>
         </section>
         <!-- add a horizontal line -->
         <hr>
@@ -71,10 +98,7 @@
 
     <!-- form is a container that contain couple info, action arritube is resevered for now -->
     <!-- type is the most important arritube of input tag -->
-
-
-
-
+    <!-- form can collect the information and send to server by click on botton that will submit tpye, be sure to use id and value for every single input -->
 </body>
 
 </html>
