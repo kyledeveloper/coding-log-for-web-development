@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="2-intro-to-css.css">
+</head>
+<!-- simple css example -->
+<style>
+</style>
+<body>
+    <h1>Login in page</h1>
+    <form action="">
+        <div>
+            <!-- name attritube: Submitted with the form as part of a name/value pair -->
+            <!-- So whatever we put in the input box of username, and if we submit the form, the name/value pair will be the part of submitted info -->
+            <label for="Username"> Enter Username : </label>
+            <input type="text" placeholder="Username" id="Username" name="name">
+        </div>
+        <div>
+            <label for="password1">Enter password :</label>
+            <input type="password" placeholder="Enter your password" id="password1">
+        </div>
+        <!-- create an id attritube for input and use for attritube in label tag to link with each other  -->
+        <!-- id = should be unique  -->
+        <div>
+            <label for="checkbox1">auto login?</label>
+            <!-- it is pre checked, agree = on if check it-->
+            <input id=checkbox1 type="checkbox" checked name="agree" id='agr'>
+
+        </div>
+        <div>
+            <button>Login in</button>
+            <!-- if you have a button inside the form, the deafut action is to submit the form and do whatever the action of the form do -->
+            <!-- otherwise you need to use type attribute to change the action  which are submit/button/reset -->
+        </div>
+    </form>
+
+    <section>
+        <p id = "reference" ><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Click here to access more CSS references</a></p>
+    </section>
+
+</body>
+</html>
