@@ -1,10 +1,9 @@
 body{
     background-color: #d8f3dc;
 }
-div.row{
-    size: 10px;
-}
 
+}
+/* .use for specific class */
 div.login-form{
     width: 25%;
     background-color: #b7e4c7;
@@ -20,6 +19,8 @@ div.login-form{
     color: #1b4332;
     text-decoration: #1b4332 underline;
 }
+
+/* # use for specific id: */
 #sign-in-button{
     background-color: #1b4332;
     color: whitesmoke;
@@ -30,4 +31,5 @@ div.login-form{
 #sign-in-button:hover{
     background-color: #b7e4c7;
     color: #1b4332;
+    
 }
