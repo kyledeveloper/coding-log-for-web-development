@@ -2,15 +2,17 @@ body{
     background-color: #d8f3dc;
 }
 
-}
 /* .use for specific class */
 div.login-form{
+    padding: 10px 10px 30px 20px;
     width: 25%;
     background-color: #b7e4c7;
     text-align: center;
     margin-left: 70%;
     font-size: 1.2em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid black;
+    border-radius: 0.4em;
 }
 
 .signin{
@@ -27,6 +29,8 @@ div.login-form{
     font-weight: bold;
     font-size: 1.5em;
     font-family: fantasy;
+    border-radius: 0.4em;
+    padding: auto;
 }
 #sign-in-button:hover{
     background-color: #b7e4c7;
