@@ -12,9 +12,10 @@ h2{
     font-weight: lighter;
     transition: transform 0.25s;
 }
-h2:nth-of-type(1):hover{
+
+.first-section h2:nth-of-type(1):hover{
     background-color: violet;
-    transform: rotate(60deg);
+    transform: rotate(360deg);
 }
 h2:nth-of-type(2):hover{
     background-color: peru;
@@ -28,4 +29,8 @@ h2:nth-of-type(3){
 h2:nth-of-type(4){
     background-color: khaki;
     transform: translate(100px);
+}
+section h2:nth-of-type(1){
+    background-color: hotpink;
+    transform: matrix();
 }
