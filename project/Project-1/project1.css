@@ -1,0 +1,53 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body.login{
+ 
+    background-image: url(img/login-page.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: max-content;
+    
+}
+
+main{
+    position: relative;
+    left: 15%;
+    background-color: aliceblue;    
+    width: 30%;
+    height: auto;
+    margin-top: 100px;
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.login-label{
+    padding: 1rem;
+    width: 30%;
+}
+
+.login-input{
+    padding: 1rem;
+}
+
+.login-submit{
+    justify-items: center;
+}
+
+.login-input{
+    background-color: none;
+    border: none;
+}
+h1{
+    margin: 0 auto;
+}
+.login-submit{
+    margin: 0 auto;
+}

@@ -8,6 +8,9 @@
 body{
     margin: 0;
     background-color: #151b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main{
     margin: 35% 25% 35% 25%;
