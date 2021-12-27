@@ -1,0 +1,31 @@
+body{
+    background-color: #f5d9d5;
+    font-family: Nunito,sans-serif;
+}
+#mainnavbar{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+#mainnavbar .nav-link{
+    color: white;
+    
+}
+#mainnavbar .nav-link:hover{
+    color: #ea1c2c;
+    
+}
+
+#mainnavbar .navbar-brand{
+    color: #ea1c2c;
+    
+}
+
+#backdash{
+    color: #ea1c2c;
+}
+
+@media (max-width: 1200px){
+    .col-lg-6 h1{
+        font-size: 3em;
+    }
+}
