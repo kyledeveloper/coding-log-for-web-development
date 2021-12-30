@@ -30,3 +30,10 @@ img.square {
 h1{
     text-decoration: plum wavy underline;
 }
+
+.purple{
+    color:purple;
+}
+.border{
+    border: 2px black solid;
+}
