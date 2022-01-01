@@ -1,9 +1,9 @@
 const allImages = document.getElementsByTagName("img")
 
-for (let img of allImages){
-    img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Partridge_Silkie_hen.jpg/900px-Partridge_Silkie_hen.jpg"
-}
-document.querySelector("p");
+// for (let img of allImages){
+//     img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Partridge_Silkie_hen.jpg/900px-Partridge_Silkie_hen.jpg"
+// }
+// document.querySelector("p");
 
 const firstLink = document.querySelector("a");
 firstLink.href;
@@ -19,3 +19,26 @@ h2.setAttribute("class","purple")
 h2.classList.add("border")
 // act like a switch
 h2.classList.toggle("purple")
+const p1 = document.createElement("h2")
+p1.innerHTML = "<i> i am the handsomiset chicken<i/>"
+const head = document.querySelector("h1")
+const button = document.createElement("button")
+button.innerText = "submit!";
+
+
+
+
+// head.prepend(p1)
+// head.insertAdjacentElement("afterend",p1)
+// p1.classList.add("border")
+let array=[];
+for (i = 0;i < 100;i++){
+    const button = document.createElement("button")
+    button.textContent = "submit!";
+    button.setAttribute("id",i)
+    array.push(button)
+}
+
+for (let arra of array){
+    head.appendChild(arra)
+}
