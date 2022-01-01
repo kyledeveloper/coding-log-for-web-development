@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    Box-sizing: Border-box 
+
+}
+
+body{
+    margin: 0;
+    background-color: #151b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    margin: 35% 25% 35% 25%;
+    font-size: 32px;
+    border: 0;
+    padding: 0;
+    
+}
+.display{
+    margin: 0;
+}
+.row{
+    /* broswer always add space between button, we need to set the font-size of the parent container of the button  to be 0*/
+    font-size: 0;
+}
+
+
+.displaycontent{
+    
+    background-color: #151b29;
+    width: 100%;
+    color: #f1ff5c;
+    opacity: 0.9;
+    border: inset;
+    height: 4rem;
+    text-align: right;
+    font-size: 3rem;
+    border-color: #ffa260;
+    padding: 0;
+}
+.displaycontent:hover{
+    opacity: 1;
+}
+
+input{
+    box-sizing: border-box;
+}
+button{
+    background:none;
+    color:#ffa260;
+    border: 2px solid;
+    margin: 0;
+    font-size: 2.5rem;
+    width: 25%;
+    height: 4rem;
+    padding: 0;
+    display: inline;
+    opacity: 0.8;
+    transition: 0.2s;
+
+}
+button:hover{
+    color: white;
+    border-color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.1em);
+    border-radius: 1rem;
+    opacity: 1;
+}
+.speical{
+    background-color: none;
+}
+.operator{
+    background-color: none  ;
+}
+.number{
+    background-color: none;
+}
+#id13{
+    width: 50%;
+}
