@@ -1,4 +1,6 @@
-
+*{
+    font-weight: 700;
+}
 .winner{
     color: green;
 }
@@ -8,8 +10,15 @@
 .container{
     width:  60%;
     margin: 200px auto;
+    border: 2px grey solid;
+    padding: 30px 20px;
 }
 
+h1{
+    padding: 10px 20px;
+    border: 5px solid grey;
+    box-shadow: dimgray;
+}
 
 .displaygroup, .buttongroup{
     margin: 0 auto;
@@ -17,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .buttongroup{
     flex-direction: row;
@@ -25,6 +35,9 @@
 button{
     padding: 20px;
     width: 150px;
+}
+button:hover{
+    cursor: pointer;
 }
 #player1btn{
     background-color: lightblue;
