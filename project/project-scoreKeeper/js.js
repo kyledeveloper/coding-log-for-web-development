@@ -11,7 +11,6 @@ function reset() {
     player2score.classList.remove("winner","loser")
 }
 
-
 const playto = document.querySelector("#playto")
 playto.addEventListener("change", function () {
     reset();
