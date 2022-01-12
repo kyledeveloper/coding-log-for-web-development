@@ -1,22 +1,6 @@
-// const hello = document.querySelector("#hello");
-// hello.addEventListener("click",console.log("hello"));
-// const goodbye = document.querySelector("#goobye");
-// goodbye.addEventListener("click",console.log("goobye"));
-
-const form = document.querySelector('form');
-const productName = document.querySelector("#product")
-const qty = document.querySelector("#qty");
-const btn = document.querySelector('button');
-const ul = document.querySelector("#list");
-
-btn.addEventListener("click",function(evt){
-    evt.preventDefault();
-    const name = productName.value;
-    const qulity = qty.value;
-    const li = document.createElement("li")
-    li.innerText = `${qulity} ${name}`;
-    ul.append(li)
-    productName.value = ""
-    qty.value = ""
-    
-});
+const textcontainer = document.querySelector("#username")
+const h1 = document.querySelector("h1")
+textcontainer.addEventListener("input",function(e){
+    h1.innerText =  `Weclome, ${e.target.value}`; 
+    e.target.value=''
+})

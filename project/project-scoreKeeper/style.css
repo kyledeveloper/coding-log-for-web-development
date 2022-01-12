@@ -1,0 +1,37 @@
+
+.winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
+.container{
+    width:  60%;
+    margin: 200px auto;
+}
+
+
+.displaygroup, .buttongroup{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttongroup{
+    flex-direction: row;
+    justify-content: space-around;
+}
+button{
+    padding: 20px;
+    width: 150px;
+}
+#player1btn{
+    background-color: lightblue;
+}
+#player2btn{
+    background-color: lightcoral;
+}
+#resetbtn{
+    background-color: lightgreen;
+}
