@@ -46,5 +46,3 @@ const btn3 = document.querySelector("#resetbtn");
 btn3.addEventListener("click", function () {
     reset();
 })
-
-
