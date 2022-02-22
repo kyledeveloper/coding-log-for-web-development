@@ -1,0 +1,22 @@
+.nav{
+    margin: 0 auto;
+    width: 95%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.nav-dark{
+    background-color: #001219;
+   
+}
+.nav-item{
+    margin-left: 10px;
+    justify-self: left;
+    align-self: center;
+}
+.nav-dark .nav-item a{
+    text-decoration: none;
+    color: aliceblue;
+}

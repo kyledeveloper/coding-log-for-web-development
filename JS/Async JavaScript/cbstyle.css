@@ -1,0 +1,7 @@
+h1{
+    width: max-content;
+    margin: 200px auto;
+}
+body{
+    transition: all 250ms;
+}
